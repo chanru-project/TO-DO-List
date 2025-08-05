@@ -16,7 +16,7 @@ A modern, responsive To-Do List web application built using **HTML**, **CSS**, a
 
 ## 📸 Preview
 
-![Preview Screenshot](https://source.unsplash.com/1000x400/?task,productivity)
+[Preview Screenshot] (https://chanru-project.github.io/TO-DO-List/)
 
 ---
 
