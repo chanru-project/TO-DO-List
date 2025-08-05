@@ -1,0 +1,98 @@
+body {
+  background: #e0eafc;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+}
+
+.todo-box {
+  background: #fff;
+  padding: 30px 25px;
+  border-radius: 20px;
+  width: 350px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+}
+
+.todo-box h2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.todo-box h2 img {
+  width: 24px;
+  height: 24px;
+}
+
+.input-section {
+  display: flex;
+  gap: 10px;
+}
+
+.input-section input {
+  flex: 1;
+  padding: 10px;
+  border: 2px solid #bbb;
+  border-radius: 25px;
+  outline: none;
+}
+
+.input-section button {
+  background: #5b21b6;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #4c1d95;
+  color: white;
+  padding: 10px 14px;
+  margin-bottom: 12px;
+  border-radius: 12px;
+}
+
+li span {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+li input[type="checkbox"] {
+  accent-color: white;
+  width: 16px;
+  height: 16px;
+}
+
+li.completed {
+  background: #e0e0e0;
+  color: #444;
+  text-decoration: line-through;
+}
+
+li button {
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+li.completed button {
+  color: #444;
+}
